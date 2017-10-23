@@ -18,7 +18,7 @@ require(CompQuadForm)
 
 KRtest <- function (edge, edge.ct, edge.len, grp.ind) {
 	# Args:
-	#		edge: a two-column matrix of mode numeric where each row represents an edge of the tree; 
+	#       edge: a two-column matrix of mode numeric where each row represents an edge of the tree; 
 	#              the nodes and the tips are symbolized with numbers; the tips are numbered 1, 2, ...,
 	#              and the nodes are numbered after the tips. For each row, the first column gives 
 	#              the ancestor. See the class "phylo" from "ape" package for more details.
